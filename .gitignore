@@ -1,0 +1,8 @@
+# Vim
+*.swp
+
+# Environment variables
+env.sh
+
+# Data files
+data/soccer.*
