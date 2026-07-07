@@ -102,6 +102,10 @@ You can setup a [cron job](https://wiki.archlinux.org/title/Cron) or
 [systemd timer](https://wiki.archlinux.org/title/Systemd/Timers) 
 to schedule automated emails.
 
+## Troubleshooting
+
+If trying to run the scripts with Systemd or a Cron job relative file-paths in the script may have to be switched to absolute file-paths.
+
 ## Resources
 
 This [tutorial](https://www.digitalocean.com/community/tutorials/send-email-linux-command-line#6-send-email-with-smtp-authentication-msmtp).
